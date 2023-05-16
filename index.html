@@ -1,0 +1,132 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flikr</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- image container section -->
+      <div class="image-container">
+        <!-- slider image section -->
+        <div class="slide-image">
+          <img src="image/image1.jpg" class="thumbnailimage" alt="flikr" />
+        </div>
+        <!-- slider image section end -->
+        <!-- navbar containers -->
+        <div class="navbar-container">
+          <div class="navbar">
+            <!-- navbar logo -->
+            <p>flikr</p>
+
+            <!-- navbar search -->
+            <div class="searchbar">
+              <i class="fa-solid searchicon fa-magnifying-glass"></i>
+              <input
+                type="text"
+                class="search-input"
+                placeholder="search photos, people or groups"
+              />
+            </div>
+            <!-- navbar login signup button -->
+
+            <div class="login-button">
+              <button>Login</button>
+              <button class="signup-button">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer starts here -->
+      <div class="footer-container">
+        <!-- footer menu -->
+        <ul class="footer-menu">
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Jobs</a>
+          </li>
+          <li>
+            <a href="">Blog</a>
+          </li>
+          <li>
+            <a href="">Developers</a>
+          </li>
+          <li>
+            <a href="">Guidlelines</a>
+          </li>
+          <li>
+            <a href="">Help</a>
+          </li>
+          <li>
+            <a href="">Help Forum</a>
+          </li>
+          <li>
+            <a href="">Privacy</a>
+          </li>
+          <li>
+            <a href="">Terms</a>
+          </li>
+          <li>
+            <a href="">Cookies</a>
+          </li>
+          <!-- language choose dropdown -->
+          <li>
+            <a href="">English</a>
+            <i
+              onclick="showOption()"
+              class="fa-solid dropdown-icon fa-caret-down"
+            ></i>
+
+            <ul id="language-option" class="language-option">
+              <li>English</li>
+              <li>Nepali</li>
+              <li>Espanol</li>
+              <li>Spanish</li>
+              <li>Hindi</li>
+              <li>Portugues</li>
+              <li>Italino</li>
+              <li>Bhasa Indonesia</li>
+            </ul>
+          </li>
+          <li>
+            <a href="">SmugMug+Flickr</a>
+          </li>
+
+          <!-- social media icons list -->
+          <li>
+            <ul class="social-media-icons">
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- image container ends -->
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  </body>
+</html>
